@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    /*style.css*/
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    background:url(yrt.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main {
+
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 500px;
+    text-align: center;
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #fff;
+    font-weight: bold;
+}
+
+input {
+  background: transparent;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+  
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #ff6347;
+    width: 100%;
+    font-size: 16px;
+}
+
+.wrap {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+<head>
+    <title>Year of Two</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1 style="color: tomato; font-family: 'Playfair Display'">Enter the secret code</h1>
+
+        <form action="">
+            
+            <input type="text" id="first" name="first" 
+                placeholder="" required>
+
+            <div class="wrap">
+                <button type="submit">
+                    Submit
+                </button>
+            </div>
+        </form>
+        <p>
+            <a href="#" style="text-decoration: none;">
+                Clue? It's Name..
+            </a>
+        </p>
+    </div>
+</body>
+
+</html>
